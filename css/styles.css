@@ -81,6 +81,7 @@ body {
   letter-spacing: 0.04em;
   color: var(--text-btn-color);
   background: var(--btn-fon-color);
+  cursor: pointer;
 }
 
 .filter-btn:hover,
@@ -137,6 +138,7 @@ body {
   letter-spacing: 0.04em;
   color: var(--hover-text-btn-color);
   background-color: var(--text-btn-color);
+  cursor: pointer;
 }
 
 .hero-btn:hover,
