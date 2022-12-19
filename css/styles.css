@@ -22,12 +22,12 @@ body {
   text-decoration: none;
 }
 
-.logo {
+.logo.link {
   color: var(--text-btn-color);
   font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
-  line-height: 133%;
+  line-height: 1.33;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -37,10 +37,10 @@ body {
   color: var(--first-text-color);
 }
 
-.header-nav-list,
-.contacts-nav {
+.header-nav-link.link,
+.contacts-nav-link.link {
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--first-text-color);
 }
@@ -48,14 +48,12 @@ body {
 .contacts-nav {
   font-style: normal;
   font-weight: 400;
-  color: var(--second-text-color);
 }
 .header-nav-link:hover,
 .header-nav-link:focus,
 .contacts-nav-link:hover,
 .contacts-nav-link:focus {
   color: var(--btn-hover-fon);
-  text-decoration: underline;
 }
 
 /* -------PORTFOLIO-SECTION------- */
@@ -74,7 +72,7 @@ body {
 .filter-btn {
   font-family: inherit;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   display: flex;
   align-items: center;
   text-align: center;
@@ -92,14 +90,14 @@ body {
 
 .portfolio-title {
   font-size: 20px;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--first-text-color);
 }
 .portfolio-after-title {
   font-weight: 400;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--second-text-color);
 }
@@ -113,18 +111,18 @@ body {
 .footer-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--footer-text);
 }
 
 /* ---------------index.html------------------ */
 .hero {
-  background-color: #2e2f42;
+  background-color: var(--first-text-color);
 }
 .hero-title {
   font-size: 56px;
-  line-height: 107%;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--hover-text-btn-color);
@@ -132,7 +130,7 @@ body {
 .hero-btn {
   font-family: inherit;
   font-size: 16px;
-  line-height: 118%;
+  line-height: 1.18;
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
@@ -153,21 +151,21 @@ body {
 
 .activity-item-title {
   font-size: 20px;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--first-text-color);
 }
 .activity-item-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--second-text-color);
 }
 .foto-title,
 .team-members-title {
   font-size: 36px;
-  line-height: 111%;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -175,7 +173,7 @@ body {
 }
 .team-item-name {
   font-size: 20px;
-  line-height: 120%;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--first-text-color);
@@ -184,7 +182,7 @@ body {
 .team-item-job {
   font-weight: 400;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--second-text-color);
